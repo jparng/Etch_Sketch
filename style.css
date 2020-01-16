@@ -1,0 +1,55 @@
+h1{ padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: arial;
+    width: 200px;
+    margin: auto;
+}
+h1:hover{
+        color: skyblue;
+        transform: rotate(10deg);
+        
+}
+
+p{
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+    position: relative;
+}
+#reset{
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    border: 2px solid black;
+    font-family: arial;
+   
+    margin-bottom: 20px;
+    
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 2em;
+    
+  }
+
+#grid{
+    width : 500px;
+    margin : auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.grid-cell {
+    display : inline-block;
+}
+
+body{
+    background-color: green;
+}
