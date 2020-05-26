@@ -22,12 +22,12 @@ function makeRows(rows, cols) {
     }
     return grid;
   }
-window.onload = makeRows(16, 16);
+window.onload = makeRows(16, 16); // When the window is refreshed, the grid is made 16 X 16.
 
 
 function draw(e) {
    if(e.target.className === "grid-cell"){
-         e.target.style.backgroundColor = 'black';
+         e.target.style.backgroundColor = 'black'; // The color for drawing on the grid is black.
             }
         };
     
@@ -44,7 +44,7 @@ function newRows(e){
 function diffRows(e){
     let addPix = prompt('How many squares do you want?');
     if(addPix != null){
-        grid.innerHTML = '';
+        grid.innerHTML = ''; // If user doesn't input any number, the grid will refresh to 16 X 16 squares.
         makeRows(16,16);
     }
    if(addPix <= 0){
